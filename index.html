@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeu Shifumi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Shifumi</h1>
+    <p>Choisissez une option :</p>
+    <div class="choices">
+      <button onclick="jouer('pierre')">🪨 Pierre</button>
+      <button onclick="jouer('feuille')">📄 Feuille</button>
+      <button onclick="jouer('ciseaux')">✂️ Ciseaux</button>
+    </div>
+    <div class="resultats">
+      <p id="joueur"></p>
+      <p id="ordinateur"></p>
+      <p id="gagnant"></p>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
